@@ -5,8 +5,8 @@
 다양한 주제의 학습 내용 및 프로젝트 개발 진행
 
 ### Chapter 1
-
 - 주제: tus 프로토콜을 이용한 동영상 업로드
+- 블로그 링크 (https://blog.naver.com/nebi25/223322414914)
 - 패키지: com.network.network_project.video
 - 기술 스택
   - HTML5, CSS3, VanilaJs, jQuery, tus-js-client
