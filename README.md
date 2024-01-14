@@ -8,6 +8,10 @@
 
 - 주제: tus 프로토콜을 이용한 동영상 업로드
 - 패키지: com.network.network_project.video
+- 기술 스택
+  - HTML5, CSS3, VanilaJs, jQuery, tus-js-client
+  - java17, Spring boot(web, validation), FileIO, tus-java-server
+  - lombok
 
 빌드 & 실행 방법
 
