@@ -28,6 +28,11 @@
     - ctrl + c 커맨드를 통해 종료 가능 
     - 만약, 백그라운드에서 실행을 원할 경우, 다음 명령어 수행, 종료 시에는 kill -9 ${PID}를 통해 직접 종료
       - java -jar network_project-0.0.1-SNAPSHOT.war &
+
+5. 아래와 같이, URL을 입력 후에, 화면에 접속 한다. 
+    - ex) http://localhost:8585 | http://192.168.35.98:8585/
+    - ex) http://localhost:8585/upload_video, http://192.168.35.98:8585/upload_video
+    - 디폴트 port 넘버는 8585 이지만, 각자 환경에 맞게 커스터마이징
 ```
 
 <br>
