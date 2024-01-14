@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>비디오 파일 테스트 페이지</title>
+    <meta name="_csrf" th:content="${_csrf?.token}" th:if="${_csrf} ne null">
+    <meta name="_csrf_header" th:content="${_csrf?.headerName}" th:if="${_csrf} ne null">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link th:href="@{/css/video/upload_video.css}" type="text/css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/tus-js-client@latest/dist/tus.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" th:src="@{/js/video/upload_video.js}"></script>
+</head>
+
+<body>
+<div class="video_upload_box">
+    <h3>영상 파일 업로드</h3>
+    <div>
+        <label for="video_upload_file">업로드 파일 선택 </label>
+        <input type="file" id="video_upload_file" multiple>
+    </div>
+
+    <div id="progress-section">
+        <div class="heading" id="heading"></div>
+        <div class="d-flex">
+            <div class="js-action-btn">
+                <button class="file_upload_btn" id="toggle-btn">파일 업로드</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="upload_status_show_box"></div>
+</div>
+
+<h3>비디오 파일</h3>
+<div class="video_result_box" id="video_result_box">
+    <!-- TODO -->
+</div>
+</body>
+</html>

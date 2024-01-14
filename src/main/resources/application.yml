@@ -1,0 +1,63 @@
+server:
+  servlet:
+    session:
+      timeout: 60m
+
+  compression:
+    enabled: true
+
+  port: 8585
+
+  tomcat:
+    threads:
+      max: 500
+      min-spare: 50
+    max-connections: 10000
+    accept-count: 1000
+    max-http-form-post-size: 100MB
+
+spring:
+  mvc:
+    hiddenmethod:
+      filter:
+        enabled: true
+
+  #  profiles:
+  #    include: env
+
+  thymeleaf:
+    cache: false
+
+  devtools:
+    livereload:
+      enabled: true
+
+    remote:
+      restart:
+        enabled: true
+
+  servlet:
+    multipart:
+      max-file-size: 50MB
+      max-request-size: 50MB
+
+logging:
+  pattern:
+    console: "[%d] %-5level [${PID:-} - %thread - {%C => %M, %l}] %logger : %msg%n"
+    file: "[%d] %-5level [${PID:-} - %thread - {%C => %M, %l}] %logger : %msg%n"
+
+  file:
+    name: ./logs/application.log
+    max-history: 30
+
+  level:
+    root: INFO
+    com.service: INFO
+
+tus_util:
+  server_protocol: http
+  server_address: 192.168.35.98
+  upload_type: videos
+  upload_directory: /home/junmokang/jmservice/jmblog/videos/upload # D:\download\tus_upload_folder
+  save_directory: /home/junmokang/jmservice/jmblog/videos/save # D:\download\tus_save_folder
+  expiration: 60000 # 1min

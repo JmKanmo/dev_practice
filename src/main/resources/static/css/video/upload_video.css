@@ -1,0 +1,11 @@
+.file_upload_btn {
+    font-size: 12px;
+    height: 30px;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 3px;
+    transition-duration: 0.3s;
+    box-shadow: 3px 3px 3px #eeeeee;
+    border: 1px solid #4ca5eb;
+    background-color: #4ca5eb;
+}
