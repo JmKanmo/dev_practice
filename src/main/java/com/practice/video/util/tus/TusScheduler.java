@@ -1,4 +1,4 @@
-package com.network.network_project.video.util.tus;
+package com.practice.video.util.tus;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

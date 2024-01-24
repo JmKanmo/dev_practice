@@ -1,4 +1,4 @@
-package com.network.network_project.video.controller;
+package com.practice.video.controller;
 
 import org.springframework.web.bind.annotation.RestController;
 

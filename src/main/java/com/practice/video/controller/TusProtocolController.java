@@ -1,6 +1,6 @@
-package com.network.network_project.video.controller;
+package com.practice.video.controller;
 
-import com.network.network_project.video.service.TusProtocolService;
+import com.practice.video.service.TusProtocolService;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import lombok.RequiredArgsConstructor;

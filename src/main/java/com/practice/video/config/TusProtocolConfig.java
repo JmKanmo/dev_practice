@@ -1,4 +1,4 @@
-package com.network.network_project.video.config;
+package com.practice.video.config;
 
 import jakarta.annotation.PreDestroy;
 import lombok.Data;

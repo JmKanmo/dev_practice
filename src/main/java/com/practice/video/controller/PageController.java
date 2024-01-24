@@ -1,4 +1,4 @@
-package com.network.network_project.video.controller;
+package com.practice.video.controller;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Controller;

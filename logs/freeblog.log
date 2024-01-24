@@ -1,5 +1,5 @@
-[2024-01-14 01:44:20,265] INFO  [36408 - main - {org.springframework.boot.StartupInfoLogger => logStarting, %PARSER_ERROR[l]}] com.network.network_project.NetworkProjectApplication : Starting NetworkProjectApplication using Java 18 with PID 36408 (D:\study\toyproject\network_project\build\classes\java\main started by apdh1 in D:\study\toyproject\network_project)
-[2024-01-14 01:44:20,267] INFO  [36408 - main - {org.springframework.boot.SpringApplication => logStartupProfileInfo, %PARSER_ERROR[l]}] com.network.network_project.NetworkProjectApplication : No active profile set, falling back to 1 default profile: "default"
+[2024-01-14 01:44:20,265] INFO  [36408 - main - {org.springframework.boot.StartupInfoLogger => logStarting, %PARSER_ERROR[l]}] com.practice.NetworkProjectApplication : Starting NetworkProjectApplication using Java 18 with PID 36408 (D:\study\toyproject\network_project\build\classes\java\main started by apdh1 in D:\study\toyproject\network_project)
+[2024-01-14 01:44:20,267] INFO  [36408 - main - {org.springframework.boot.SpringApplication => logStartupProfileInfo, %PARSER_ERROR[l]}] com.practice.NetworkProjectApplication : No active profile set, falling back to 1 default profile: "default"
 [2024-01-14 01:44:21,232] INFO  [36408 - main - {org.springframework.data.repository.config.RepositoryConfigurationDelegate => registerRepositoriesIn, %PARSER_ERROR[l]}] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
 [2024-01-14 01:44:21,255] INFO  [36408 - main - {org.springframework.data.repository.config.RepositoryConfigurationDelegate => registerRepositoriesIn, %PARSER_ERROR[l]}] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13 ms. Found 0 JPA repository interfaces.
 [2024-01-14 01:44:21,853] INFO  [36408 - main - {org.springframework.boot.web.embedded.tomcat.TomcatWebServer => initialize, %PARSER_ERROR[l]}] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port 8585 (http)
@@ -31,8 +31,8 @@ Consider the following:
 	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
 	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
 
-[2024-01-14 01:45:23,578] INFO  [40172 - main - {org.springframework.boot.StartupInfoLogger => logStarting, %PARSER_ERROR[l]}] com.network.network_project.NetworkProjectApplication : Starting NetworkProjectApplication using Java 18 with PID 40172 (D:\study\toyproject\network_project\build\classes\java\main started by apdh1 in D:\study\toyproject\network_project)
-[2024-01-14 01:45:23,582] INFO  [40172 - main - {org.springframework.boot.SpringApplication => logStartupProfileInfo, %PARSER_ERROR[l]}] com.network.network_project.NetworkProjectApplication : No active profile set, falling back to 1 default profile: "default"
+[2024-01-14 01:45:23,578] INFO  [40172 - main - {org.springframework.boot.StartupInfoLogger => logStarting, %PARSER_ERROR[l]}] com.practice.NetworkProjectApplication : Starting NetworkProjectApplication using Java 18 with PID 40172 (D:\study\toyproject\network_project\build\classes\java\main started by apdh1 in D:\study\toyproject\network_project)
+[2024-01-14 01:45:23,582] INFO  [40172 - main - {org.springframework.boot.SpringApplication => logStartupProfileInfo, %PARSER_ERROR[l]}] com.practice.NetworkProjectApplication : No active profile set, falling back to 1 default profile: "default"
 [2024-01-14 01:45:24,425] INFO  [40172 - main - {org.springframework.boot.web.embedded.tomcat.TomcatWebServer => initialize, %PARSER_ERROR[l]}] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port 8585 (http)
 [2024-01-14 01:45:24,439] INFO  [40172 - main - {org.apache.juli.logging.DirectJDKLog => log, %PARSER_ERROR[l]}] org.apache.catalina.core.StandardService : Starting service [Tomcat]
 [2024-01-14 01:45:24,439] INFO  [40172 - main - {org.apache.juli.logging.DirectJDKLog => log, %PARSER_ERROR[l]}] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/10.1.17]
@@ -40,8 +40,8 @@ Consider the following:
 [2024-01-14 01:45:24,502] INFO  [40172 - main - {org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext => prepareWebApplicationContext, %PARSER_ERROR[l]}] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 876 ms
 [2024-01-14 01:45:24,669] INFO  [40172 - main - {org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping => <init>, %PARSER_ERROR[l]}] org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping : Adding welcome page template: index
 [2024-01-14 01:45:24,994] INFO  [40172 - main - {org.springframework.boot.web.embedded.tomcat.TomcatWebServer => start, %PARSER_ERROR[l]}] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port 8585 (http) with context path ''
-[2024-01-14 01:45:25,004] INFO  [40172 - main - {org.springframework.boot.StartupInfoLogger => logStarted, %PARSER_ERROR[l]}] com.network.network_project.NetworkProjectApplication : Started NetworkProjectApplication in 1.987 seconds (process running for 2.834)
-[2024-01-14 01:45:25,008] INFO  [40172 - scheduling-1 - {com.network.network_project.video.util.tus.TusScheduler => tusCleanUp, %PARSER_ERROR[l]}] com.network.network_project.video.util.tus.TusScheduler : tusCleanUp Schedule process
+[2024-01-14 01:45:25,004] INFO  [40172 - main - {org.springframework.boot.StartupInfoLogger => logStarted, %PARSER_ERROR[l]}] com.practice.NetworkProjectApplication : Started NetworkProjectApplication in 1.987 seconds (process running for 2.834)
+[2024-01-14 01:45:25,008] INFO  [40172 - scheduling-1 - {tus.util.video.com.practice.TusScheduler => tusCleanUp, %PARSER_ERROR[l]}] tus.util.video.com.practice.TusScheduler : tusCleanUp Schedule process
 [2024-01-14 01:45:25,009] ERROR [40172 - scheduling-1 - {org.springframework.scheduling.support.TaskUtils$LoggingErrorHandler => handleError, %PARSER_ERROR[l]}] org.springframework.scheduling.support.TaskUtils$LoggingErrorHandler : Unexpected error occurred in scheduled task
 java.nio.file.NoSuchFileException: D:\download\tus_upload_folder\locks
 	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
@@ -53,7 +53,7 @@ java.nio.file.NoSuchFileException: D:\download\tus_upload_folder\locks
 	at me.desair.tus.server.upload.disk.DiskLockingService.cleanupStaleLocks(DiskLockingService.java:59)
 	at me.desair.tus.server.upload.cache.ThreadLocalCachedStorageAndLockingService.cleanupStaleLocks(ThreadLocalCachedStorageAndLockingService.java:184)
 	at me.desair.tus.server.TusFileUploadService.cleanup(TusFileUploadService.java:409)
-	at com.network.network_project.video.util.tus.TusScheduler.tusCleanUp(TusScheduler.java:19)
+	at tus.util.video.com.practice.TusScheduler.tusCleanUp(TusScheduler.java:19)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
 	at org.springframework.scheduling.support.ScheduledMethodRunnable.runInternal(ScheduledMethodRunnable.java:130)
@@ -68,7 +68,7 @@ java.nio.file.NoSuchFileException: D:\download\tus_upload_folder\locks
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 	at java.base/java.lang.Thread.run(Thread.java:833)
-[2024-01-14 01:45:35,014] INFO  [40172 - scheduling-1 - {com.network.network_project.video.util.tus.TusScheduler => tusCleanUp, %PARSER_ERROR[l]}] com.network.network_project.video.util.tus.TusScheduler : tusCleanUp Schedule process
+[2024-01-14 01:45:35,014] INFO  [40172 - scheduling-1 - {tus.util.video.com.practice.TusScheduler => tusCleanUp, %PARSER_ERROR[l]}] tus.util.video.com.practice.TusScheduler : tusCleanUp Schedule process
 [2024-01-14 01:45:35,014] ERROR [40172 - scheduling-1 - {org.springframework.scheduling.support.TaskUtils$LoggingErrorHandler => handleError, %PARSER_ERROR[l]}] org.springframework.scheduling.support.TaskUtils$LoggingErrorHandler : Unexpected error occurred in scheduled task
 java.nio.file.NoSuchFileException: D:\download\tus_upload_folder\locks
 	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
@@ -80,7 +80,7 @@ java.nio.file.NoSuchFileException: D:\download\tus_upload_folder\locks
 	at me.desair.tus.server.upload.disk.DiskLockingService.cleanupStaleLocks(DiskLockingService.java:59)
 	at me.desair.tus.server.upload.cache.ThreadLocalCachedStorageAndLockingService.cleanupStaleLocks(ThreadLocalCachedStorageAndLockingService.java:184)
 	at me.desair.tus.server.TusFileUploadService.cleanup(TusFileUploadService.java:409)
-	at com.network.network_project.video.util.tus.TusScheduler.tusCleanUp(TusScheduler.java:19)
+	at tus.util.video.com.practice.TusScheduler.tusCleanUp(TusScheduler.java:19)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
 	at org.springframework.scheduling.support.ScheduledMethodRunnable.runInternal(ScheduledMethodRunnable.java:130)
@@ -95,7 +95,7 @@ java.nio.file.NoSuchFileException: D:\download\tus_upload_folder\locks
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 	at java.base/java.lang.Thread.run(Thread.java:833)
-[2024-01-14 01:45:45,016] INFO  [40172 - scheduling-1 - {com.network.network_project.video.util.tus.TusScheduler => tusCleanUp, %PARSER_ERROR[l]}] com.network.network_project.video.util.tus.TusScheduler : tusCleanUp Schedule process
+[2024-01-14 01:45:45,016] INFO  [40172 - scheduling-1 - {tus.util.video.com.practice.TusScheduler => tusCleanUp, %PARSER_ERROR[l]}] tus.util.video.com.practice.TusScheduler : tusCleanUp Schedule process
 [2024-01-14 01:45:45,016] ERROR [40172 - scheduling-1 - {org.springframework.scheduling.support.TaskUtils$LoggingErrorHandler => handleError, %PARSER_ERROR[l]}] org.springframework.scheduling.support.TaskUtils$LoggingErrorHandler : Unexpected error occurred in scheduled task
 java.nio.file.NoSuchFileException: D:\download\tus_upload_folder\locks
 	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
@@ -107,7 +107,7 @@ java.nio.file.NoSuchFileException: D:\download\tus_upload_folder\locks
 	at me.desair.tus.server.upload.disk.DiskLockingService.cleanupStaleLocks(DiskLockingService.java:59)
 	at me.desair.tus.server.upload.cache.ThreadLocalCachedStorageAndLockingService.cleanupStaleLocks(ThreadLocalCachedStorageAndLockingService.java:184)
 	at me.desair.tus.server.TusFileUploadService.cleanup(TusFileUploadService.java:409)
-	at com.network.network_project.video.util.tus.TusScheduler.tusCleanUp(TusScheduler.java:19)
+	at tus.util.video.com.practice.TusScheduler.tusCleanUp(TusScheduler.java:19)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
 	at org.springframework.scheduling.support.ScheduledMethodRunnable.runInternal(ScheduledMethodRunnable.java:130)
@@ -122,7 +122,7 @@ java.nio.file.NoSuchFileException: D:\download\tus_upload_folder\locks
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 	at java.base/java.lang.Thread.run(Thread.java:833)
-[2024-01-14 01:45:55,018] INFO  [40172 - scheduling-1 - {com.network.network_project.video.util.tus.TusScheduler => tusCleanUp, %PARSER_ERROR[l]}] com.network.network_project.video.util.tus.TusScheduler : tusCleanUp Schedule process
+[2024-01-14 01:45:55,018] INFO  [40172 - scheduling-1 - {tus.util.video.com.practice.TusScheduler => tusCleanUp, %PARSER_ERROR[l]}] tus.util.video.com.practice.TusScheduler : tusCleanUp Schedule process
 [2024-01-14 01:45:55,018] ERROR [40172 - scheduling-1 - {org.springframework.scheduling.support.TaskUtils$LoggingErrorHandler => handleError, %PARSER_ERROR[l]}] org.springframework.scheduling.support.TaskUtils$LoggingErrorHandler : Unexpected error occurred in scheduled task
 java.nio.file.NoSuchFileException: D:\download\tus_upload_folder\locks
 	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
@@ -134,7 +134,7 @@ java.nio.file.NoSuchFileException: D:\download\tus_upload_folder\locks
 	at me.desair.tus.server.upload.disk.DiskLockingService.cleanupStaleLocks(DiskLockingService.java:59)
 	at me.desair.tus.server.upload.cache.ThreadLocalCachedStorageAndLockingService.cleanupStaleLocks(ThreadLocalCachedStorageAndLockingService.java:184)
 	at me.desair.tus.server.TusFileUploadService.cleanup(TusFileUploadService.java:409)
-	at com.network.network_project.video.util.tus.TusScheduler.tusCleanUp(TusScheduler.java:19)
+	at tus.util.video.com.practice.TusScheduler.tusCleanUp(TusScheduler.java:19)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
 	at org.springframework.scheduling.support.ScheduledMethodRunnable.runInternal(ScheduledMethodRunnable.java:130)
@@ -149,7 +149,7 @@ java.nio.file.NoSuchFileException: D:\download\tus_upload_folder\locks
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 	at java.base/java.lang.Thread.run(Thread.java:833)
-[2024-01-14 01:46:05,020] INFO  [40172 - scheduling-1 - {com.network.network_project.video.util.tus.TusScheduler => tusCleanUp, %PARSER_ERROR[l]}] com.network.network_project.video.util.tus.TusScheduler : tusCleanUp Schedule process
+[2024-01-14 01:46:05,020] INFO  [40172 - scheduling-1 - {tus.util.video.com.practice.TusScheduler => tusCleanUp, %PARSER_ERROR[l]}] tus.util.video.com.practice.TusScheduler : tusCleanUp Schedule process
 [2024-01-14 01:46:05,020] ERROR [40172 - scheduling-1 - {org.springframework.scheduling.support.TaskUtils$LoggingErrorHandler => handleError, %PARSER_ERROR[l]}] org.springframework.scheduling.support.TaskUtils$LoggingErrorHandler : Unexpected error occurred in scheduled task
 java.nio.file.NoSuchFileException: D:\download\tus_upload_folder\locks
 	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
@@ -161,7 +161,7 @@ java.nio.file.NoSuchFileException: D:\download\tus_upload_folder\locks
 	at me.desair.tus.server.upload.disk.DiskLockingService.cleanupStaleLocks(DiskLockingService.java:59)
 	at me.desair.tus.server.upload.cache.ThreadLocalCachedStorageAndLockingService.cleanupStaleLocks(ThreadLocalCachedStorageAndLockingService.java:184)
 	at me.desair.tus.server.TusFileUploadService.cleanup(TusFileUploadService.java:409)
-	at com.network.network_project.video.util.tus.TusScheduler.tusCleanUp(TusScheduler.java:19)
+	at tus.util.video.com.practice.TusScheduler.tusCleanUp(TusScheduler.java:19)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
 	at org.springframework.scheduling.support.ScheduledMethodRunnable.runInternal(ScheduledMethodRunnable.java:130)
@@ -176,7 +176,7 @@ java.nio.file.NoSuchFileException: D:\download\tus_upload_folder\locks
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 	at java.base/java.lang.Thread.run(Thread.java:833)
-[2024-01-14 01:46:15,023] INFO  [40172 - scheduling-1 - {com.network.network_project.video.util.tus.TusScheduler => tusCleanUp, %PARSER_ERROR[l]}] com.network.network_project.video.util.tus.TusScheduler : tusCleanUp Schedule process
+[2024-01-14 01:46:15,023] INFO  [40172 - scheduling-1 - {tus.util.video.com.practice.TusScheduler => tusCleanUp, %PARSER_ERROR[l]}] tus.util.video.com.practice.TusScheduler : tusCleanUp Schedule process
 [2024-01-14 01:46:15,023] ERROR [40172 - scheduling-1 - {org.springframework.scheduling.support.TaskUtils$LoggingErrorHandler => handleError, %PARSER_ERROR[l]}] org.springframework.scheduling.support.TaskUtils$LoggingErrorHandler : Unexpected error occurred in scheduled task
 java.nio.file.NoSuchFileException: D:\download\tus_upload_folder\locks
 	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
@@ -188,7 +188,7 @@ java.nio.file.NoSuchFileException: D:\download\tus_upload_folder\locks
 	at me.desair.tus.server.upload.disk.DiskLockingService.cleanupStaleLocks(DiskLockingService.java:59)
 	at me.desair.tus.server.upload.cache.ThreadLocalCachedStorageAndLockingService.cleanupStaleLocks(ThreadLocalCachedStorageAndLockingService.java:184)
 	at me.desair.tus.server.TusFileUploadService.cleanup(TusFileUploadService.java:409)
-	at com.network.network_project.video.util.tus.TusScheduler.tusCleanUp(TusScheduler.java:19)
+	at tus.util.video.com.practice.TusScheduler.tusCleanUp(TusScheduler.java:19)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
 	at org.springframework.scheduling.support.ScheduledMethodRunnable.runInternal(ScheduledMethodRunnable.java:130)
@@ -203,7 +203,7 @@ java.nio.file.NoSuchFileException: D:\download\tus_upload_folder\locks
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 	at java.base/java.lang.Thread.run(Thread.java:833)
-[2024-01-14 01:46:25,025] INFO  [40172 - scheduling-1 - {com.network.network_project.video.util.tus.TusScheduler => tusCleanUp, %PARSER_ERROR[l]}] com.network.network_project.video.util.tus.TusScheduler : tusCleanUp Schedule process
+[2024-01-14 01:46:25,025] INFO  [40172 - scheduling-1 - {tus.util.video.com.practice.TusScheduler => tusCleanUp, %PARSER_ERROR[l]}] tus.util.video.com.practice.TusScheduler : tusCleanUp Schedule process
 [2024-01-14 01:46:25,025] ERROR [40172 - scheduling-1 - {org.springframework.scheduling.support.TaskUtils$LoggingErrorHandler => handleError, %PARSER_ERROR[l]}] org.springframework.scheduling.support.TaskUtils$LoggingErrorHandler : Unexpected error occurred in scheduled task
 java.nio.file.NoSuchFileException: D:\download\tus_upload_folder\locks
 	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
@@ -215,7 +215,7 @@ java.nio.file.NoSuchFileException: D:\download\tus_upload_folder\locks
 	at me.desair.tus.server.upload.disk.DiskLockingService.cleanupStaleLocks(DiskLockingService.java:59)
 	at me.desair.tus.server.upload.cache.ThreadLocalCachedStorageAndLockingService.cleanupStaleLocks(ThreadLocalCachedStorageAndLockingService.java:184)
 	at me.desair.tus.server.TusFileUploadService.cleanup(TusFileUploadService.java:409)
-	at com.network.network_project.video.util.tus.TusScheduler.tusCleanUp(TusScheduler.java:19)
+	at tus.util.video.com.practice.TusScheduler.tusCleanUp(TusScheduler.java:19)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
 	at org.springframework.scheduling.support.ScheduledMethodRunnable.runInternal(ScheduledMethodRunnable.java:130)
@@ -230,7 +230,7 @@ java.nio.file.NoSuchFileException: D:\download\tus_upload_folder\locks
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 	at java.base/java.lang.Thread.run(Thread.java:833)
-[2024-01-14 01:46:35,027] INFO  [40172 - scheduling-1 - {com.network.network_project.video.util.tus.TusScheduler => tusCleanUp, %PARSER_ERROR[l]}] com.network.network_project.video.util.tus.TusScheduler : tusCleanUp Schedule process
+[2024-01-14 01:46:35,027] INFO  [40172 - scheduling-1 - {tus.util.video.com.practice.TusScheduler => tusCleanUp, %PARSER_ERROR[l]}] tus.util.video.com.practice.TusScheduler : tusCleanUp Schedule process
 [2024-01-14 01:46:35,027] ERROR [40172 - scheduling-1 - {org.springframework.scheduling.support.TaskUtils$LoggingErrorHandler => handleError, %PARSER_ERROR[l]}] org.springframework.scheduling.support.TaskUtils$LoggingErrorHandler : Unexpected error occurred in scheduled task
 java.nio.file.NoSuchFileException: D:\download\tus_upload_folder\locks
 	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
@@ -242,7 +242,7 @@ java.nio.file.NoSuchFileException: D:\download\tus_upload_folder\locks
 	at me.desair.tus.server.upload.disk.DiskLockingService.cleanupStaleLocks(DiskLockingService.java:59)
 	at me.desair.tus.server.upload.cache.ThreadLocalCachedStorageAndLockingService.cleanupStaleLocks(ThreadLocalCachedStorageAndLockingService.java:184)
 	at me.desair.tus.server.TusFileUploadService.cleanup(TusFileUploadService.java:409)
-	at com.network.network_project.video.util.tus.TusScheduler.tusCleanUp(TusScheduler.java:19)
+	at tus.util.video.com.practice.TusScheduler.tusCleanUp(TusScheduler.java:19)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
 	at org.springframework.scheduling.support.ScheduledMethodRunnable.runInternal(ScheduledMethodRunnable.java:130)
@@ -257,7 +257,7 @@ java.nio.file.NoSuchFileException: D:\download\tus_upload_folder\locks
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 	at java.base/java.lang.Thread.run(Thread.java:833)
-[2024-01-14 01:46:45,030] INFO  [40172 - scheduling-1 - {com.network.network_project.video.util.tus.TusScheduler => tusCleanUp, %PARSER_ERROR[l]}] com.network.network_project.video.util.tus.TusScheduler : tusCleanUp Schedule process
+[2024-01-14 01:46:45,030] INFO  [40172 - scheduling-1 - {tus.util.video.com.practice.TusScheduler => tusCleanUp, %PARSER_ERROR[l]}] tus.util.video.com.practice.TusScheduler : tusCleanUp Schedule process
 [2024-01-14 01:46:45,030] ERROR [40172 - scheduling-1 - {org.springframework.scheduling.support.TaskUtils$LoggingErrorHandler => handleError, %PARSER_ERROR[l]}] org.springframework.scheduling.support.TaskUtils$LoggingErrorHandler : Unexpected error occurred in scheduled task
 java.nio.file.NoSuchFileException: D:\download\tus_upload_folder\locks
 	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
@@ -269,7 +269,7 @@ java.nio.file.NoSuchFileException: D:\download\tus_upload_folder\locks
 	at me.desair.tus.server.upload.disk.DiskLockingService.cleanupStaleLocks(DiskLockingService.java:59)
 	at me.desair.tus.server.upload.cache.ThreadLocalCachedStorageAndLockingService.cleanupStaleLocks(ThreadLocalCachedStorageAndLockingService.java:184)
 	at me.desair.tus.server.TusFileUploadService.cleanup(TusFileUploadService.java:409)
-	at com.network.network_project.video.util.tus.TusScheduler.tusCleanUp(TusScheduler.java:19)
+	at tus.util.video.com.practice.TusScheduler.tusCleanUp(TusScheduler.java:19)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
 	at org.springframework.scheduling.support.ScheduledMethodRunnable.runInternal(ScheduledMethodRunnable.java:130)
@@ -284,7 +284,7 @@ java.nio.file.NoSuchFileException: D:\download\tus_upload_folder\locks
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 	at java.base/java.lang.Thread.run(Thread.java:833)
-[2024-01-14 01:46:55,031] INFO  [40172 - scheduling-1 - {com.network.network_project.video.util.tus.TusScheduler => tusCleanUp, %PARSER_ERROR[l]}] com.network.network_project.video.util.tus.TusScheduler : tusCleanUp Schedule process
+[2024-01-14 01:46:55,031] INFO  [40172 - scheduling-1 - {tus.util.video.com.practice.TusScheduler => tusCleanUp, %PARSER_ERROR[l]}] tus.util.video.com.practice.TusScheduler : tusCleanUp Schedule process
 [2024-01-14 01:46:55,031] ERROR [40172 - scheduling-1 - {org.springframework.scheduling.support.TaskUtils$LoggingErrorHandler => handleError, %PARSER_ERROR[l]}] org.springframework.scheduling.support.TaskUtils$LoggingErrorHandler : Unexpected error occurred in scheduled task
 java.nio.file.NoSuchFileException: D:\download\tus_upload_folder\locks
 	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
@@ -296,7 +296,7 @@ java.nio.file.NoSuchFileException: D:\download\tus_upload_folder\locks
 	at me.desair.tus.server.upload.disk.DiskLockingService.cleanupStaleLocks(DiskLockingService.java:59)
 	at me.desair.tus.server.upload.cache.ThreadLocalCachedStorageAndLockingService.cleanupStaleLocks(ThreadLocalCachedStorageAndLockingService.java:184)
 	at me.desair.tus.server.TusFileUploadService.cleanup(TusFileUploadService.java:409)
-	at com.network.network_project.video.util.tus.TusScheduler.tusCleanUp(TusScheduler.java:19)
+	at tus.util.video.com.practice.TusScheduler.tusCleanUp(TusScheduler.java:19)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
 	at org.springframework.scheduling.support.ScheduledMethodRunnable.runInternal(ScheduledMethodRunnable.java:130)
@@ -311,7 +311,7 @@ java.nio.file.NoSuchFileException: D:\download\tus_upload_folder\locks
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 	at java.base/java.lang.Thread.run(Thread.java:833)
-[2024-01-14 01:47:05,034] INFO  [40172 - scheduling-1 - {com.network.network_project.video.util.tus.TusScheduler => tusCleanUp, %PARSER_ERROR[l]}] com.network.network_project.video.util.tus.TusScheduler : tusCleanUp Schedule process
+[2024-01-14 01:47:05,034] INFO  [40172 - scheduling-1 - {tus.util.video.com.practice.TusScheduler => tusCleanUp, %PARSER_ERROR[l]}] tus.util.video.com.practice.TusScheduler : tusCleanUp Schedule process
 [2024-01-14 01:47:05,035] ERROR [40172 - scheduling-1 - {org.springframework.scheduling.support.TaskUtils$LoggingErrorHandler => handleError, %PARSER_ERROR[l]}] org.springframework.scheduling.support.TaskUtils$LoggingErrorHandler : Unexpected error occurred in scheduled task
 java.nio.file.NoSuchFileException: D:\download\tus_upload_folder\locks
 	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
@@ -323,7 +323,7 @@ java.nio.file.NoSuchFileException: D:\download\tus_upload_folder\locks
 	at me.desair.tus.server.upload.disk.DiskLockingService.cleanupStaleLocks(DiskLockingService.java:59)
 	at me.desair.tus.server.upload.cache.ThreadLocalCachedStorageAndLockingService.cleanupStaleLocks(ThreadLocalCachedStorageAndLockingService.java:184)
 	at me.desair.tus.server.TusFileUploadService.cleanup(TusFileUploadService.java:409)
-	at com.network.network_project.video.util.tus.TusScheduler.tusCleanUp(TusScheduler.java:19)
+	at tus.util.video.com.practice.TusScheduler.tusCleanUp(TusScheduler.java:19)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
 	at org.springframework.scheduling.support.ScheduledMethodRunnable.runInternal(ScheduledMethodRunnable.java:130)
@@ -338,7 +338,7 @@ java.nio.file.NoSuchFileException: D:\download\tus_upload_folder\locks
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 	at java.base/java.lang.Thread.run(Thread.java:833)
-[2024-01-14 01:47:15,036] INFO  [40172 - scheduling-1 - {com.network.network_project.video.util.tus.TusScheduler => tusCleanUp, %PARSER_ERROR[l]}] com.network.network_project.video.util.tus.TusScheduler : tusCleanUp Schedule process
+[2024-01-14 01:47:15,036] INFO  [40172 - scheduling-1 - {tus.util.video.com.practice.TusScheduler => tusCleanUp, %PARSER_ERROR[l]}] tus.util.video.com.practice.TusScheduler : tusCleanUp Schedule process
 [2024-01-14 01:47:58,602] ERROR [40172 - scheduling-1 - {org.springframework.scheduling.support.TaskUtils$LoggingErrorHandler => handleError, %PARSER_ERROR[l]}] org.springframework.scheduling.support.TaskUtils$LoggingErrorHandler : Unexpected error occurred in scheduled task
 java.nio.file.NoSuchFileException: D:\download\tus_upload_folder\locks
 	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
@@ -350,7 +350,7 @@ java.nio.file.NoSuchFileException: D:\download\tus_upload_folder\locks
 	at me.desair.tus.server.upload.disk.DiskLockingService.cleanupStaleLocks(DiskLockingService.java:59)
 	at me.desair.tus.server.upload.cache.ThreadLocalCachedStorageAndLockingService.cleanupStaleLocks(ThreadLocalCachedStorageAndLockingService.java:184)
 	at me.desair.tus.server.TusFileUploadService.cleanup(TusFileUploadService.java:409)
-	at com.network.network_project.video.util.tus.TusScheduler.tusCleanUp(TusScheduler.java:19)
+	at tus.util.video.com.practice.TusScheduler.tusCleanUp(TusScheduler.java:19)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
 	at org.springframework.scheduling.support.ScheduledMethodRunnable.runInternal(ScheduledMethodRunnable.java:130)
@@ -365,7 +365,7 @@ java.nio.file.NoSuchFileException: D:\download\tus_upload_folder\locks
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 	at java.base/java.lang.Thread.run(Thread.java:833)
-[2024-01-14 01:48:08,605] INFO  [40172 - scheduling-1 - {com.network.network_project.video.util.tus.TusScheduler => tusCleanUp, %PARSER_ERROR[l]}] com.network.network_project.video.util.tus.TusScheduler : tusCleanUp Schedule process
+[2024-01-14 01:48:08,605] INFO  [40172 - scheduling-1 - {tus.util.video.com.practice.TusScheduler => tusCleanUp, %PARSER_ERROR[l]}] tus.util.video.com.practice.TusScheduler : tusCleanUp Schedule process
 [2024-01-14 01:48:13,113] ERROR [40172 - scheduling-1 - {org.springframework.scheduling.support.TaskUtils$LoggingErrorHandler => handleError, %PARSER_ERROR[l]}] org.springframework.scheduling.support.TaskUtils$LoggingErrorHandler : Unexpected error occurred in scheduled task
 java.nio.file.NoSuchFileException: D:\download\tus_upload_folder\locks
 	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
@@ -377,7 +377,7 @@ java.nio.file.NoSuchFileException: D:\download\tus_upload_folder\locks
 	at me.desair.tus.server.upload.disk.DiskLockingService.cleanupStaleLocks(DiskLockingService.java:59)
 	at me.desair.tus.server.upload.cache.ThreadLocalCachedStorageAndLockingService.cleanupStaleLocks(ThreadLocalCachedStorageAndLockingService.java:184)
 	at me.desair.tus.server.TusFileUploadService.cleanup(TusFileUploadService.java:409)
-	at com.network.network_project.video.util.tus.TusScheduler.tusCleanUp(TusScheduler.java:19)
+	at tus.util.video.com.practice.TusScheduler.tusCleanUp(TusScheduler.java:19)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
 	at org.springframework.scheduling.support.ScheduledMethodRunnable.runInternal(ScheduledMethodRunnable.java:130)
@@ -392,7 +392,7 @@ java.nio.file.NoSuchFileException: D:\download\tus_upload_folder\locks
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 	at java.base/java.lang.Thread.run(Thread.java:833)
-[2024-01-14 01:48:23,114] INFO  [40172 - scheduling-1 - {com.network.network_project.video.util.tus.TusScheduler => tusCleanUp, %PARSER_ERROR[l]}] com.network.network_project.video.util.tus.TusScheduler : tusCleanUp Schedule process
+[2024-01-14 01:48:23,114] INFO  [40172 - scheduling-1 - {tus.util.video.com.practice.TusScheduler => tusCleanUp, %PARSER_ERROR[l]}] tus.util.video.com.practice.TusScheduler : tusCleanUp Schedule process
 [2024-01-14 01:48:23,114] ERROR [40172 - scheduling-1 - {org.springframework.scheduling.support.TaskUtils$LoggingErrorHandler => handleError, %PARSER_ERROR[l]}] org.springframework.scheduling.support.TaskUtils$LoggingErrorHandler : Unexpected error occurred in scheduled task
 java.nio.file.NoSuchFileException: D:\download\tus_upload_folder\locks
 	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
@@ -404,7 +404,7 @@ java.nio.file.NoSuchFileException: D:\download\tus_upload_folder\locks
 	at me.desair.tus.server.upload.disk.DiskLockingService.cleanupStaleLocks(DiskLockingService.java:59)
 	at me.desair.tus.server.upload.cache.ThreadLocalCachedStorageAndLockingService.cleanupStaleLocks(ThreadLocalCachedStorageAndLockingService.java:184)
 	at me.desair.tus.server.TusFileUploadService.cleanup(TusFileUploadService.java:409)
-	at com.network.network_project.video.util.tus.TusScheduler.tusCleanUp(TusScheduler.java:19)
+	at tus.util.video.com.practice.TusScheduler.tusCleanUp(TusScheduler.java:19)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
 	at org.springframework.scheduling.support.ScheduledMethodRunnable.runInternal(ScheduledMethodRunnable.java:130)
@@ -419,7 +419,7 @@ java.nio.file.NoSuchFileException: D:\download\tus_upload_folder\locks
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 	at java.base/java.lang.Thread.run(Thread.java:833)
-[2024-01-14 01:48:33,116] INFO  [40172 - scheduling-1 - {com.network.network_project.video.util.tus.TusScheduler => tusCleanUp, %PARSER_ERROR[l]}] com.network.network_project.video.util.tus.TusScheduler : tusCleanUp Schedule process
+[2024-01-14 01:48:33,116] INFO  [40172 - scheduling-1 - {tus.util.video.com.practice.TusScheduler => tusCleanUp, %PARSER_ERROR[l]}] tus.util.video.com.practice.TusScheduler : tusCleanUp Schedule process
 [2024-01-14 01:48:33,116] ERROR [40172 - scheduling-1 - {org.springframework.scheduling.support.TaskUtils$LoggingErrorHandler => handleError, %PARSER_ERROR[l]}] org.springframework.scheduling.support.TaskUtils$LoggingErrorHandler : Unexpected error occurred in scheduled task
 java.nio.file.NoSuchFileException: D:\download\tus_upload_folder\locks
 	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
@@ -431,7 +431,7 @@ java.nio.file.NoSuchFileException: D:\download\tus_upload_folder\locks
 	at me.desair.tus.server.upload.disk.DiskLockingService.cleanupStaleLocks(DiskLockingService.java:59)
 	at me.desair.tus.server.upload.cache.ThreadLocalCachedStorageAndLockingService.cleanupStaleLocks(ThreadLocalCachedStorageAndLockingService.java:184)
 	at me.desair.tus.server.TusFileUploadService.cleanup(TusFileUploadService.java:409)
-	at com.network.network_project.video.util.tus.TusScheduler.tusCleanUp(TusScheduler.java:19)
+	at tus.util.video.com.practice.TusScheduler.tusCleanUp(TusScheduler.java:19)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
 	at org.springframework.scheduling.support.ScheduledMethodRunnable.runInternal(ScheduledMethodRunnable.java:130)
@@ -446,7 +446,7 @@ java.nio.file.NoSuchFileException: D:\download\tus_upload_folder\locks
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 	at java.base/java.lang.Thread.run(Thread.java:833)
-[2024-01-14 01:48:43,117] INFO  [40172 - scheduling-1 - {com.network.network_project.video.util.tus.TusScheduler => tusCleanUp, %PARSER_ERROR[l]}] com.network.network_project.video.util.tus.TusScheduler : tusCleanUp Schedule process
+[2024-01-14 01:48:43,117] INFO  [40172 - scheduling-1 - {tus.util.video.com.practice.TusScheduler => tusCleanUp, %PARSER_ERROR[l]}] tus.util.video.com.practice.TusScheduler : tusCleanUp Schedule process
 [2024-01-14 01:48:43,117] ERROR [40172 - scheduling-1 - {org.springframework.scheduling.support.TaskUtils$LoggingErrorHandler => handleError, %PARSER_ERROR[l]}] org.springframework.scheduling.support.TaskUtils$LoggingErrorHandler : Unexpected error occurred in scheduled task
 java.nio.file.NoSuchFileException: D:\download\tus_upload_folder\locks
 	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
@@ -458,7 +458,7 @@ java.nio.file.NoSuchFileException: D:\download\tus_upload_folder\locks
 	at me.desair.tus.server.upload.disk.DiskLockingService.cleanupStaleLocks(DiskLockingService.java:59)
 	at me.desair.tus.server.upload.cache.ThreadLocalCachedStorageAndLockingService.cleanupStaleLocks(ThreadLocalCachedStorageAndLockingService.java:184)
 	at me.desair.tus.server.TusFileUploadService.cleanup(TusFileUploadService.java:409)
-	at com.network.network_project.video.util.tus.TusScheduler.tusCleanUp(TusScheduler.java:19)
+	at tus.util.video.com.practice.TusScheduler.tusCleanUp(TusScheduler.java:19)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
 	at org.springframework.scheduling.support.ScheduledMethodRunnable.runInternal(ScheduledMethodRunnable.java:130)
@@ -473,7 +473,7 @@ java.nio.file.NoSuchFileException: D:\download\tus_upload_folder\locks
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 	at java.base/java.lang.Thread.run(Thread.java:833)
-[2024-01-14 01:48:53,120] INFO  [40172 - scheduling-1 - {com.network.network_project.video.util.tus.TusScheduler => tusCleanUp, %PARSER_ERROR[l]}] com.network.network_project.video.util.tus.TusScheduler : tusCleanUp Schedule process
+[2024-01-14 01:48:53,120] INFO  [40172 - scheduling-1 - {tus.util.video.com.practice.TusScheduler => tusCleanUp, %PARSER_ERROR[l]}] tus.util.video.com.practice.TusScheduler : tusCleanUp Schedule process
 [2024-01-14 01:48:53,120] ERROR [40172 - scheduling-1 - {org.springframework.scheduling.support.TaskUtils$LoggingErrorHandler => handleError, %PARSER_ERROR[l]}] org.springframework.scheduling.support.TaskUtils$LoggingErrorHandler : Unexpected error occurred in scheduled task
 java.nio.file.NoSuchFileException: D:\download\tus_upload_folder\locks
 	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
@@ -485,7 +485,7 @@ java.nio.file.NoSuchFileException: D:\download\tus_upload_folder\locks
 	at me.desair.tus.server.upload.disk.DiskLockingService.cleanupStaleLocks(DiskLockingService.java:59)
 	at me.desair.tus.server.upload.cache.ThreadLocalCachedStorageAndLockingService.cleanupStaleLocks(ThreadLocalCachedStorageAndLockingService.java:184)
 	at me.desair.tus.server.TusFileUploadService.cleanup(TusFileUploadService.java:409)
-	at com.network.network_project.video.util.tus.TusScheduler.tusCleanUp(TusScheduler.java:19)
+	at tus.util.video.com.practice.TusScheduler.tusCleanUp(TusScheduler.java:19)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
 	at org.springframework.scheduling.support.ScheduledMethodRunnable.runInternal(ScheduledMethodRunnable.java:130)
@@ -500,7 +500,7 @@ java.nio.file.NoSuchFileException: D:\download\tus_upload_folder\locks
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 	at java.base/java.lang.Thread.run(Thread.java:833)
-[2024-01-14 01:49:03,121] INFO  [40172 - scheduling-1 - {com.network.network_project.video.util.tus.TusScheduler => tusCleanUp, %PARSER_ERROR[l]}] com.network.network_project.video.util.tus.TusScheduler : tusCleanUp Schedule process
+[2024-01-14 01:49:03,121] INFO  [40172 - scheduling-1 - {tus.util.video.com.practice.TusScheduler => tusCleanUp, %PARSER_ERROR[l]}] tus.util.video.com.practice.TusScheduler : tusCleanUp Schedule process
 [2024-01-14 01:49:03,121] ERROR [40172 - scheduling-1 - {org.springframework.scheduling.support.TaskUtils$LoggingErrorHandler => handleError, %PARSER_ERROR[l]}] org.springframework.scheduling.support.TaskUtils$LoggingErrorHandler : Unexpected error occurred in scheduled task
 java.nio.file.NoSuchFileException: D:\download\tus_upload_folder\locks
 	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
@@ -512,7 +512,7 @@ java.nio.file.NoSuchFileException: D:\download\tus_upload_folder\locks
 	at me.desair.tus.server.upload.disk.DiskLockingService.cleanupStaleLocks(DiskLockingService.java:59)
 	at me.desair.tus.server.upload.cache.ThreadLocalCachedStorageAndLockingService.cleanupStaleLocks(ThreadLocalCachedStorageAndLockingService.java:184)
 	at me.desair.tus.server.TusFileUploadService.cleanup(TusFileUploadService.java:409)
-	at com.network.network_project.video.util.tus.TusScheduler.tusCleanUp(TusScheduler.java:19)
+	at tus.util.video.com.practice.TusScheduler.tusCleanUp(TusScheduler.java:19)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
 	at org.springframework.scheduling.support.ScheduledMethodRunnable.runInternal(ScheduledMethodRunnable.java:130)
@@ -527,7 +527,7 @@ java.nio.file.NoSuchFileException: D:\download\tus_upload_folder\locks
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 	at java.base/java.lang.Thread.run(Thread.java:833)
-[2024-01-14 01:49:13,123] INFO  [40172 - scheduling-1 - {com.network.network_project.video.util.tus.TusScheduler => tusCleanUp, %PARSER_ERROR[l]}] com.network.network_project.video.util.tus.TusScheduler : tusCleanUp Schedule process
+[2024-01-14 01:49:13,123] INFO  [40172 - scheduling-1 - {tus.util.video.com.practice.TusScheduler => tusCleanUp, %PARSER_ERROR[l]}] tus.util.video.com.practice.TusScheduler : tusCleanUp Schedule process
 [2024-01-14 01:49:13,123] ERROR [40172 - scheduling-1 - {org.springframework.scheduling.support.TaskUtils$LoggingErrorHandler => handleError, %PARSER_ERROR[l]}] org.springframework.scheduling.support.TaskUtils$LoggingErrorHandler : Unexpected error occurred in scheduled task
 java.nio.file.NoSuchFileException: D:\download\tus_upload_folder\locks
 	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
@@ -539,7 +539,7 @@ java.nio.file.NoSuchFileException: D:\download\tus_upload_folder\locks
 	at me.desair.tus.server.upload.disk.DiskLockingService.cleanupStaleLocks(DiskLockingService.java:59)
 	at me.desair.tus.server.upload.cache.ThreadLocalCachedStorageAndLockingService.cleanupStaleLocks(ThreadLocalCachedStorageAndLockingService.java:184)
 	at me.desair.tus.server.TusFileUploadService.cleanup(TusFileUploadService.java:409)
-	at com.network.network_project.video.util.tus.TusScheduler.tusCleanUp(TusScheduler.java:19)
+	at tus.util.video.com.practice.TusScheduler.tusCleanUp(TusScheduler.java:19)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
 	at org.springframework.scheduling.support.ScheduledMethodRunnable.runInternal(ScheduledMethodRunnable.java:130)
@@ -554,7 +554,7 @@ java.nio.file.NoSuchFileException: D:\download\tus_upload_folder\locks
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 	at java.base/java.lang.Thread.run(Thread.java:833)
-[2024-01-14 01:49:23,124] INFO  [40172 - scheduling-1 - {com.network.network_project.video.util.tus.TusScheduler => tusCleanUp, %PARSER_ERROR[l]}] com.network.network_project.video.util.tus.TusScheduler : tusCleanUp Schedule process
+[2024-01-14 01:49:23,124] INFO  [40172 - scheduling-1 - {tus.util.video.com.practice.TusScheduler => tusCleanUp, %PARSER_ERROR[l]}] tus.util.video.com.practice.TusScheduler : tusCleanUp Schedule process
 [2024-01-14 01:49:23,124] ERROR [40172 - scheduling-1 - {org.springframework.scheduling.support.TaskUtils$LoggingErrorHandler => handleError, %PARSER_ERROR[l]}] org.springframework.scheduling.support.TaskUtils$LoggingErrorHandler : Unexpected error occurred in scheduled task
 java.nio.file.NoSuchFileException: D:\download\tus_upload_folder\locks
 	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
@@ -566,7 +566,7 @@ java.nio.file.NoSuchFileException: D:\download\tus_upload_folder\locks
 	at me.desair.tus.server.upload.disk.DiskLockingService.cleanupStaleLocks(DiskLockingService.java:59)
 	at me.desair.tus.server.upload.cache.ThreadLocalCachedStorageAndLockingService.cleanupStaleLocks(ThreadLocalCachedStorageAndLockingService.java:184)
 	at me.desair.tus.server.TusFileUploadService.cleanup(TusFileUploadService.java:409)
-	at com.network.network_project.video.util.tus.TusScheduler.tusCleanUp(TusScheduler.java:19)
+	at tus.util.video.com.practice.TusScheduler.tusCleanUp(TusScheduler.java:19)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
 	at org.springframework.scheduling.support.ScheduledMethodRunnable.runInternal(ScheduledMethodRunnable.java:130)
@@ -581,7 +581,7 @@ java.nio.file.NoSuchFileException: D:\download\tus_upload_folder\locks
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 	at java.base/java.lang.Thread.run(Thread.java:833)
-[2024-01-14 01:49:33,125] INFO  [40172 - scheduling-1 - {com.network.network_project.video.util.tus.TusScheduler => tusCleanUp, %PARSER_ERROR[l]}] com.network.network_project.video.util.tus.TusScheduler : tusCleanUp Schedule process
+[2024-01-14 01:49:33,125] INFO  [40172 - scheduling-1 - {tus.util.video.com.practice.TusScheduler => tusCleanUp, %PARSER_ERROR[l]}] tus.util.video.com.practice.TusScheduler : tusCleanUp Schedule process
 [2024-01-14 01:49:33,125] ERROR [40172 - scheduling-1 - {org.springframework.scheduling.support.TaskUtils$LoggingErrorHandler => handleError, %PARSER_ERROR[l]}] org.springframework.scheduling.support.TaskUtils$LoggingErrorHandler : Unexpected error occurred in scheduled task
 java.nio.file.NoSuchFileException: D:\download\tus_upload_folder\locks
 	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
@@ -593,7 +593,7 @@ java.nio.file.NoSuchFileException: D:\download\tus_upload_folder\locks
 	at me.desair.tus.server.upload.disk.DiskLockingService.cleanupStaleLocks(DiskLockingService.java:59)
 	at me.desair.tus.server.upload.cache.ThreadLocalCachedStorageAndLockingService.cleanupStaleLocks(ThreadLocalCachedStorageAndLockingService.java:184)
 	at me.desair.tus.server.TusFileUploadService.cleanup(TusFileUploadService.java:409)
-	at com.network.network_project.video.util.tus.TusScheduler.tusCleanUp(TusScheduler.java:19)
+	at tus.util.video.com.practice.TusScheduler.tusCleanUp(TusScheduler.java:19)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
 	at org.springframework.scheduling.support.ScheduledMethodRunnable.runInternal(ScheduledMethodRunnable.java:130)
@@ -608,7 +608,7 @@ java.nio.file.NoSuchFileException: D:\download\tus_upload_folder\locks
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 	at java.base/java.lang.Thread.run(Thread.java:833)
-[2024-01-14 01:49:43,127] INFO  [40172 - scheduling-1 - {com.network.network_project.video.util.tus.TusScheduler => tusCleanUp, %PARSER_ERROR[l]}] com.network.network_project.video.util.tus.TusScheduler : tusCleanUp Schedule process
+[2024-01-14 01:49:43,127] INFO  [40172 - scheduling-1 - {tus.util.video.com.practice.TusScheduler => tusCleanUp, %PARSER_ERROR[l]}] tus.util.video.com.practice.TusScheduler : tusCleanUp Schedule process
 [2024-01-14 01:49:43,127] ERROR [40172 - scheduling-1 - {org.springframework.scheduling.support.TaskUtils$LoggingErrorHandler => handleError, %PARSER_ERROR[l]}] org.springframework.scheduling.support.TaskUtils$LoggingErrorHandler : Unexpected error occurred in scheduled task
 java.nio.file.NoSuchFileException: D:\download\tus_upload_folder\locks
 	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
@@ -620,7 +620,7 @@ java.nio.file.NoSuchFileException: D:\download\tus_upload_folder\locks
 	at me.desair.tus.server.upload.disk.DiskLockingService.cleanupStaleLocks(DiskLockingService.java:59)
 	at me.desair.tus.server.upload.cache.ThreadLocalCachedStorageAndLockingService.cleanupStaleLocks(ThreadLocalCachedStorageAndLockingService.java:184)
 	at me.desair.tus.server.TusFileUploadService.cleanup(TusFileUploadService.java:409)
-	at com.network.network_project.video.util.tus.TusScheduler.tusCleanUp(TusScheduler.java:19)
+	at tus.util.video.com.practice.TusScheduler.tusCleanUp(TusScheduler.java:19)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
 	at org.springframework.scheduling.support.ScheduledMethodRunnable.runInternal(ScheduledMethodRunnable.java:130)
@@ -635,7 +635,7 @@ java.nio.file.NoSuchFileException: D:\download\tus_upload_folder\locks
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 	at java.base/java.lang.Thread.run(Thread.java:833)
-[2024-01-14 01:49:53,130] INFO  [40172 - scheduling-1 - {com.network.network_project.video.util.tus.TusScheduler => tusCleanUp, %PARSER_ERROR[l]}] com.network.network_project.video.util.tus.TusScheduler : tusCleanUp Schedule process
+[2024-01-14 01:49:53,130] INFO  [40172 - scheduling-1 - {tus.util.video.com.practice.TusScheduler => tusCleanUp, %PARSER_ERROR[l]}] tus.util.video.com.practice.TusScheduler : tusCleanUp Schedule process
 [2024-01-14 01:49:53,130] ERROR [40172 - scheduling-1 - {org.springframework.scheduling.support.TaskUtils$LoggingErrorHandler => handleError, %PARSER_ERROR[l]}] org.springframework.scheduling.support.TaskUtils$LoggingErrorHandler : Unexpected error occurred in scheduled task
 java.nio.file.NoSuchFileException: D:\download\tus_upload_folder\locks
 	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
@@ -647,7 +647,7 @@ java.nio.file.NoSuchFileException: D:\download\tus_upload_folder\locks
 	at me.desair.tus.server.upload.disk.DiskLockingService.cleanupStaleLocks(DiskLockingService.java:59)
 	at me.desair.tus.server.upload.cache.ThreadLocalCachedStorageAndLockingService.cleanupStaleLocks(ThreadLocalCachedStorageAndLockingService.java:184)
 	at me.desair.tus.server.TusFileUploadService.cleanup(TusFileUploadService.java:409)
-	at com.network.network_project.video.util.tus.TusScheduler.tusCleanUp(TusScheduler.java:19)
+	at tus.util.video.com.practice.TusScheduler.tusCleanUp(TusScheduler.java:19)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
 	at org.springframework.scheduling.support.ScheduledMethodRunnable.runInternal(ScheduledMethodRunnable.java:130)
@@ -662,7 +662,7 @@ java.nio.file.NoSuchFileException: D:\download\tus_upload_folder\locks
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 	at java.base/java.lang.Thread.run(Thread.java:833)
-[2024-01-14 01:50:03,131] INFO  [40172 - scheduling-1 - {com.network.network_project.video.util.tus.TusScheduler => tusCleanUp, %PARSER_ERROR[l]}] com.network.network_project.video.util.tus.TusScheduler : tusCleanUp Schedule process
+[2024-01-14 01:50:03,131] INFO  [40172 - scheduling-1 - {tus.util.video.com.practice.TusScheduler => tusCleanUp, %PARSER_ERROR[l]}] tus.util.video.com.practice.TusScheduler : tusCleanUp Schedule process
 [2024-01-14 01:50:03,132] ERROR [40172 - scheduling-1 - {org.springframework.scheduling.support.TaskUtils$LoggingErrorHandler => handleError, %PARSER_ERROR[l]}] org.springframework.scheduling.support.TaskUtils$LoggingErrorHandler : Unexpected error occurred in scheduled task
 java.nio.file.NoSuchFileException: D:\download\tus_upload_folder\locks
 	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
@@ -674,7 +674,7 @@ java.nio.file.NoSuchFileException: D:\download\tus_upload_folder\locks
 	at me.desair.tus.server.upload.disk.DiskLockingService.cleanupStaleLocks(DiskLockingService.java:59)
 	at me.desair.tus.server.upload.cache.ThreadLocalCachedStorageAndLockingService.cleanupStaleLocks(ThreadLocalCachedStorageAndLockingService.java:184)
 	at me.desair.tus.server.TusFileUploadService.cleanup(TusFileUploadService.java:409)
-	at com.network.network_project.video.util.tus.TusScheduler.tusCleanUp(TusScheduler.java:19)
+	at tus.util.video.com.practice.TusScheduler.tusCleanUp(TusScheduler.java:19)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
 	at org.springframework.scheduling.support.ScheduledMethodRunnable.runInternal(ScheduledMethodRunnable.java:130)
@@ -689,7 +689,7 @@ java.nio.file.NoSuchFileException: D:\download\tus_upload_folder\locks
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 	at java.base/java.lang.Thread.run(Thread.java:833)
-[2024-01-14 01:50:13,134] INFO  [40172 - scheduling-1 - {com.network.network_project.video.util.tus.TusScheduler => tusCleanUp, %PARSER_ERROR[l]}] com.network.network_project.video.util.tus.TusScheduler : tusCleanUp Schedule process
+[2024-01-14 01:50:13,134] INFO  [40172 - scheduling-1 - {tus.util.video.com.practice.TusScheduler => tusCleanUp, %PARSER_ERROR[l]}] tus.util.video.com.practice.TusScheduler : tusCleanUp Schedule process
 [2024-01-14 01:50:13,135] ERROR [40172 - scheduling-1 - {org.springframework.scheduling.support.TaskUtils$LoggingErrorHandler => handleError, %PARSER_ERROR[l]}] org.springframework.scheduling.support.TaskUtils$LoggingErrorHandler : Unexpected error occurred in scheduled task
 java.nio.file.NoSuchFileException: D:\download\tus_upload_folder\locks
 	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
@@ -701,7 +701,7 @@ java.nio.file.NoSuchFileException: D:\download\tus_upload_folder\locks
 	at me.desair.tus.server.upload.disk.DiskLockingService.cleanupStaleLocks(DiskLockingService.java:59)
 	at me.desair.tus.server.upload.cache.ThreadLocalCachedStorageAndLockingService.cleanupStaleLocks(ThreadLocalCachedStorageAndLockingService.java:184)
 	at me.desair.tus.server.TusFileUploadService.cleanup(TusFileUploadService.java:409)
-	at com.network.network_project.video.util.tus.TusScheduler.tusCleanUp(TusScheduler.java:19)
+	at tus.util.video.com.practice.TusScheduler.tusCleanUp(TusScheduler.java:19)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
 	at org.springframework.scheduling.support.ScheduledMethodRunnable.runInternal(ScheduledMethodRunnable.java:130)
@@ -716,7 +716,7 @@ java.nio.file.NoSuchFileException: D:\download\tus_upload_folder\locks
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 	at java.base/java.lang.Thread.run(Thread.java:833)
-[2024-01-14 01:50:23,138] INFO  [40172 - scheduling-1 - {com.network.network_project.video.util.tus.TusScheduler => tusCleanUp, %PARSER_ERROR[l]}] com.network.network_project.video.util.tus.TusScheduler : tusCleanUp Schedule process
+[2024-01-14 01:50:23,138] INFO  [40172 - scheduling-1 - {tus.util.video.com.practice.TusScheduler => tusCleanUp, %PARSER_ERROR[l]}] tus.util.video.com.practice.TusScheduler : tusCleanUp Schedule process
 [2024-01-14 01:50:23,138] ERROR [40172 - scheduling-1 - {org.springframework.scheduling.support.TaskUtils$LoggingErrorHandler => handleError, %PARSER_ERROR[l]}] org.springframework.scheduling.support.TaskUtils$LoggingErrorHandler : Unexpected error occurred in scheduled task
 java.nio.file.NoSuchFileException: D:\download\tus_upload_folder\locks
 	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
@@ -728,7 +728,7 @@ java.nio.file.NoSuchFileException: D:\download\tus_upload_folder\locks
 	at me.desair.tus.server.upload.disk.DiskLockingService.cleanupStaleLocks(DiskLockingService.java:59)
 	at me.desair.tus.server.upload.cache.ThreadLocalCachedStorageAndLockingService.cleanupStaleLocks(ThreadLocalCachedStorageAndLockingService.java:184)
 	at me.desair.tus.server.TusFileUploadService.cleanup(TusFileUploadService.java:409)
-	at com.network.network_project.video.util.tus.TusScheduler.tusCleanUp(TusScheduler.java:19)
+	at tus.util.video.com.practice.TusScheduler.tusCleanUp(TusScheduler.java:19)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
 	at org.springframework.scheduling.support.ScheduledMethodRunnable.runInternal(ScheduledMethodRunnable.java:130)
@@ -746,7 +746,7 @@ java.nio.file.NoSuchFileException: D:\download\tus_upload_folder\locks
 [2024-01-14 01:50:32,641] INFO  [40172 - http-nio-8585-exec-2 - {org.apache.juli.logging.DirectJDKLog => log, %PARSER_ERROR[l]}] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring DispatcherServlet 'dispatcherServlet'
 [2024-01-14 01:50:32,641] INFO  [40172 - http-nio-8585-exec-2 - {org.springframework.web.servlet.FrameworkServlet => initServletBean, %PARSER_ERROR[l]}] org.springframework.web.servlet.DispatcherServlet : Initializing Servlet 'dispatcherServlet'
 [2024-01-14 01:50:32,642] INFO  [40172 - http-nio-8585-exec-2 - {org.springframework.web.servlet.FrameworkServlet => initServletBean, %PARSER_ERROR[l]}] org.springframework.web.servlet.DispatcherServlet : Completed initialization in 1 ms
-[2024-01-14 01:50:33,139] INFO  [40172 - scheduling-1 - {com.network.network_project.video.util.tus.TusScheduler => tusCleanUp, %PARSER_ERROR[l]}] com.network.network_project.video.util.tus.TusScheduler : tusCleanUp Schedule process
+[2024-01-14 01:50:33,139] INFO  [40172 - scheduling-1 - {tus.util.video.com.practice.TusScheduler => tusCleanUp, %PARSER_ERROR[l]}] tus.util.video.com.practice.TusScheduler : tusCleanUp Schedule process
 [2024-01-14 01:50:33,139] ERROR [40172 - scheduling-1 - {org.springframework.scheduling.support.TaskUtils$LoggingErrorHandler => handleError, %PARSER_ERROR[l]}] org.springframework.scheduling.support.TaskUtils$LoggingErrorHandler : Unexpected error occurred in scheduled task
 java.nio.file.NoSuchFileException: D:\download\tus_upload_folder\locks
 	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
@@ -758,7 +758,7 @@ java.nio.file.NoSuchFileException: D:\download\tus_upload_folder\locks
 	at me.desair.tus.server.upload.disk.DiskLockingService.cleanupStaleLocks(DiskLockingService.java:59)
 	at me.desair.tus.server.upload.cache.ThreadLocalCachedStorageAndLockingService.cleanupStaleLocks(ThreadLocalCachedStorageAndLockingService.java:184)
 	at me.desair.tus.server.TusFileUploadService.cleanup(TusFileUploadService.java:409)
-	at com.network.network_project.video.util.tus.TusScheduler.tusCleanUp(TusScheduler.java:19)
+	at tus.util.video.com.practice.TusScheduler.tusCleanUp(TusScheduler.java:19)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
 	at org.springframework.scheduling.support.ScheduledMethodRunnable.runInternal(ScheduledMethodRunnable.java:130)
@@ -773,7 +773,7 @@ java.nio.file.NoSuchFileException: D:\download\tus_upload_folder\locks
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 	at java.base/java.lang.Thread.run(Thread.java:833)
-[2024-01-14 01:50:43,140] INFO  [40172 - scheduling-1 - {com.network.network_project.video.util.tus.TusScheduler => tusCleanUp, %PARSER_ERROR[l]}] com.network.network_project.video.util.tus.TusScheduler : tusCleanUp Schedule process
+[2024-01-14 01:50:43,140] INFO  [40172 - scheduling-1 - {tus.util.video.com.practice.TusScheduler => tusCleanUp, %PARSER_ERROR[l]}] tus.util.video.com.practice.TusScheduler : tusCleanUp Schedule process
 [2024-01-14 01:50:43,140] ERROR [40172 - scheduling-1 - {org.springframework.scheduling.support.TaskUtils$LoggingErrorHandler => handleError, %PARSER_ERROR[l]}] org.springframework.scheduling.support.TaskUtils$LoggingErrorHandler : Unexpected error occurred in scheduled task
 java.nio.file.NoSuchFileException: D:\download\tus_upload_folder\locks
 	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
@@ -785,7 +785,7 @@ java.nio.file.NoSuchFileException: D:\download\tus_upload_folder\locks
 	at me.desair.tus.server.upload.disk.DiskLockingService.cleanupStaleLocks(DiskLockingService.java:59)
 	at me.desair.tus.server.upload.cache.ThreadLocalCachedStorageAndLockingService.cleanupStaleLocks(ThreadLocalCachedStorageAndLockingService.java:184)
 	at me.desair.tus.server.TusFileUploadService.cleanup(TusFileUploadService.java:409)
-	at com.network.network_project.video.util.tus.TusScheduler.tusCleanUp(TusScheduler.java:19)
+	at tus.util.video.com.practice.TusScheduler.tusCleanUp(TusScheduler.java:19)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
 	at org.springframework.scheduling.support.ScheduledMethodRunnable.runInternal(ScheduledMethodRunnable.java:130)

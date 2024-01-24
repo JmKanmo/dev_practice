@@ -1,4 +1,4 @@
-package com.network.network_project.video.model;
+package com.practice.video.model;
 
 import jakarta.validation.constraints.NotEmpty;
 import jakarta.validation.constraints.NotNull;
