@@ -36,6 +36,8 @@ dependencies {
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
     // https://mvnrepository.com/artifact/me.desair.tus/tus-java-server
     implementation group: 'me.desair.tus', name: 'tus-java-server', version: '1.0.0-3.0'
+    // https://mvnrepository.com/artifact/org.json/json
+    implementation 'org.json:json:20240205'
 }
 
 tasks.named('test') {
